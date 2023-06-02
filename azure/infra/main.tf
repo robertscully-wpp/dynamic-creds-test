@@ -7,7 +7,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "exampleTFResourceGroup"
+  name     = "TFDemoRGrename"
   location = var.azure_location
 }
 
