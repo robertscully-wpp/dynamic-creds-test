@@ -7,7 +7,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "renamed_rg_test"
+  name     = "renamed_rg_test2"
   location = var.azure_location
 }
 
