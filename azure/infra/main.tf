@@ -7,12 +7,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "renamed_rg_test"
+  name     = "TFDemoRGrename2"
   location = var.azure_location
 }
 
 resource "azurerm_virtual_network" "example" {
-  name                = "example-network"
+  name                = "example-network2"
   address_space       = ["10.0.0.0/16"]
   location            = azurerm_resource_group.example.location
   resource_group_name = azurerm_resource_group.example.name
